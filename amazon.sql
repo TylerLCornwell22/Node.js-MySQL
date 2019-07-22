@@ -26,7 +26,7 @@ VALUES ("Tomb Raider", "Video Games", 49.95, 150),
   ("Sleeping bag", "Camping", 15.00, 25),
   ("Shrek", "Films", 25.50, 57),
   ("Life", "Board Games", 30.50, 35),
-  ("Candy Landz", "Board Games", 19.95, 23);
+  ("Candy Land", "Board Games", 19.95, 23);
 
 
 
