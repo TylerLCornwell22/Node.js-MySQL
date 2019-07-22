@@ -17,21 +17,10 @@ var display = function () {
         if (err) throw err;
         console.log("Welcome to Amazon")
         console.log("please select a product")
-
-        for (var i = 0; i < res.length; i++){
-            table.push ([res[i].product_name,res[i].department_name, res[i].price, res[i].stock_quantity]);
+        console.table(res);
     
-        }
-    });
-    var table = new Table({
-        head: ["product_name", "department_name", "price", "stock_quantity"]
-        ,colWidths: [20, 20, 20, 20, 20, 20]
-      ,colAligns: ["center", "left", "right"],
-
-    });
-    
-    // console.log(Table.toString());
-    // console.log("");
+        });
+        
 
 };
 
