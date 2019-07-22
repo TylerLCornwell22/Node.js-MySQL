@@ -27,7 +27,7 @@ var display = function () {
       table.push ([res[i].item_id, res[i].product_name, res[i].department_name, res[i].price,res[i].stock_quantity])
     }
     console.log(table.toString());
-    console.log(res);
+    
   })
 };
 
